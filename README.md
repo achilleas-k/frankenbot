@@ -1,7 +1,7 @@
 # POC for Discord bot
 
 ```
-USAGE: test.py <command> [params]...
+USAGE: bot.py <command> [params]...
 
 Available Commands
   message
