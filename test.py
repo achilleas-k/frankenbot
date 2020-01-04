@@ -12,7 +12,7 @@ APIURL = f"https://discordapp.com/api/v{APIVER}"
 
 
 commands = {
-    "test": "Test the connection by sending a message (param: message)",
+    "message": "Test the connection by sending a message (param: message)",
     "create-role": "Create a role (param: role name)",
     "add-role": "Add a role to a user (params: username, rolename)",
     "help": "This help message",
@@ -180,7 +180,7 @@ def main():
     token = secrets["bot_token"]
     server_id = secrets["server_id"]
 
-    if command == "test":
+    if command == "message":
         if len(args) != 1:
             die(usage())
         send_message(args[0], token, server_id)

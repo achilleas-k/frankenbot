@@ -4,7 +4,7 @@
 USAGE: test.py <command> [params]...
 
 Available Commands
-  test
+  message
 	Test the connection by sending a message (param: message)
   create-role
 	Create a role (param: role name)
